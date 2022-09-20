@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Formulary Page 1</title>
+    </head>
+
+    <body>
+        <form action="image.html" method="POST">
+            <h2>Datos Personales</h2>
+            <b>Nombre:</b>
+            <input name="name" type="text">
+            <br><br>
+            
+            <b>Apellido:</b>
+            <input name="subname" type="text" placeholder="Escriba sus dos apellidos">
+            <br><br>
+
+            <b>Sexo:</b>
+            <input name="sex" type="radio"><b>Hombre</b>
+            <input name="sex" type="radio"><b>Mujer</b>
+            <br>
+
+
+            <h2>Fecha Nacimiento</h2>
+            <b>Fecha:</b>
+            <input name="birdate" type="date" placeholder="dd/mm/yyyy">
+            <br>
+
+            <h2>Tel&eacute;fono</h2>
+            <input name="phone" type="date" placeholder="(Codigo de Area) N&uacute;mero">
+            <br>
+
+            <h2>Nivel de Escolaridad</h2>
+            <select name="scolarity">
+                <option disabled selected>-Seleccione-</option>
+                <option>Primaria</option>
+                <option>Medio</option>
+                <option>Medio Superior</option>
+                <option>Superior</option>
+            </select>
+            <br>
+
+            <h4>
+                Esta de acuerdo con los terminos presentados
+                <input name="accept" type="checkbox">
+            </h4>
+            <input type="submit" value="Completar">
+        </form>
+    </body>
+
+</html>
